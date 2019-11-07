@@ -1,0 +1,35 @@
+{
+  "name": "react-storybook-styled-components",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "author": "",
+  "scripts": {
+    "start": "start-storybook -s ./public,./static",
+    "build": "build-storybook -c .storybook -o public/"
+  },
+  "devDependencies": {
+    "@babel/core": "7.7.2",
+    "@babel/plugin-proposal-class-properties": "7.7.0",
+    "@babel/plugin-proposal-decorators": "7.7.0",
+    "@babel/plugin-proposal-object-rest-spread": "7.6.2",
+    "@babel/plugin-proposal-optional-chaining": "7.6.0",
+    "@babel/preset-env": "7.7.1",
+    "@babel/preset-react": "7.7.0",
+    "@babel/preset-typescript": "7.7.2",
+    "@storybook/addon-knobs": "5.2.5",
+    "@storybook/react": "5.2.5",
+    "@types/react": "16.9.11",
+    "@types/react-dom": "16.9.4",
+    "@types/styled-components": "4.1.22",
+    "babel-loader": "8.0.6",
+    "babel-plugin-react-require": "3.1.1",
+    "babel-plugin-styled-components": "1.10.6",
+    "react": "16.11.0",
+    "react-dom": "16.11.0",
+    "styled-components": "4.4.1",
+    "typescript": "3.7.2",
+    "typescript-styled-plugin": "0.15.0",
+    "webpack": "4.41.2"
+  }
+}
