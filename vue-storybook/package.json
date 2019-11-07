@@ -1,21 +1,12 @@
 {
-  "name": "react-next-css-modules",
+  "name": "vue-storybook",
   "version": "1.0.0",
   "description": "",
   "private": true,
-  "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
-  },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "core-js": "3.4.0",
-    "next": "9.1.2",
-    "normalize.css": "8.0.1",
-    "react": "16.11.0",
-    "react-dom": "16.11.0"
+  "scripts": {
+    "start": "start-storybook -s ./public,./static",
+    "build": "build-storybook -c .storybook -o public/"
   },
   "devDependencies": {
     "@babel/core": "7.7.2",
@@ -26,13 +17,22 @@
     "@babel/preset-env": "7.7.1",
     "@babel/preset-react": "7.7.0",
     "@babel/preset-typescript": "7.7.2",
-    "@types/next": "8.0.6",
-    "@types/react": "16.9.11",
-    "@types/react-dom": "16.9.4",
-    "@zeit/next-sass": "1.0.1",
-    "autoprefixer": "9.7.1",
+    "@storybook/vue": "5.2.5",
+    "@vue/cli-plugin-babel": "4.0.5",
+    "@vue/cli-plugin-typescript": "4.0.5",
+    "@vue/cli-service": "4.0.5",
+    "babel-loader": "8.0.6",
+    "babel-preset-vue": "2.0.2",
+    "css-loader": "3.2.0",
     "node-sass": "4.13.0",
+    "react": "16.11.0",
+    "react-dom": "16.11.0",
+    "sass-loader": "8.0.0",
     "style-resources-loader": "1.2.1",
+    "vue": "2.6.10",
+    "vue-loader": "15.7.2",
+    "vue-style-loader": "4.1.2",
+    "vue-template-compiler": "2.6.10",
     "typescript": "3.7.2",
     "webpack": "4.41.2"
   }
