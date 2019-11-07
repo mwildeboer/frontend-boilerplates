@@ -12,6 +12,7 @@ export default Vue.extend({});
 
 <style lang="scss" scoped>
 .title {
+  color: $black;
   font-size: 48px;
   margin: 0;
   padding: 0;

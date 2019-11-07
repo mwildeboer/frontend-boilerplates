@@ -11,7 +11,16 @@ module.exports = ({ config }) => {
     use: [
       'vue-style-loader',
       'css-loader',
-      'sass-loader'
+      'sass-loader',
+      {
+        loader: 'style-resources-loader',
+        options: {
+          patterns: [
+            './src/styles/variables.scss',
+            './src/styles/mixins.scss'
+          ]
+        }
+      },
     ]
   });
 
