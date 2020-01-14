@@ -1,6 +1,27 @@
+# Ignore folders
+build
+node_modules
+coverage
+
+# Ignore logs
+*.log
+
+# Ignore settings
+**/.settings
+**/target
+/.settings
+/.idea
+**/*.iml
+.project
+.classpath
+.release.properties
+*.releaseBackup
+
+# Ignore system files
 .DS_Store
 ._*
 .vscode
+test-report.xml
+.vscode
 .next
 .env
-node_modules

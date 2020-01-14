@@ -1,9 +1,13 @@
 import styled from "styled-components";
 
-const H1 = styled.h1`
+type Props = {
+  test?: string
+}
+
+const Title = styled.h1<Props>`
   font-size: 48px;
   margin: 0;
   padding: 0;
 `
 
-export default H1
+export default Title

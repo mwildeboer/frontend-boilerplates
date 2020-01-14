@@ -1,7 +1,11 @@
-import { storiesOf } from "@storybook/react";
+import React from 'react';
 import Title from "../components/Title";
 
-storiesOf("Title", module)
-  .add("Base", () => (
-    <Title>Hello World</Title>
-  ))
+export default { 
+  title: 'Title',
+  component: Title
+};
+
+export const base = () => (
+  <Title>Hello World</Title>
+)

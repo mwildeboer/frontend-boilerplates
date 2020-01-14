@@ -1,26 +1,25 @@
 {
   "compilerOptions": {
-    "allowJs": true,
-    "allowSyntheticDefaultImports": true,
-    "baseUrl": "src",
-    "experimentalDecorators": true,
-    "jsx": "preserve",
-    "jsxFactory": "jsx",
+    "target": "es5",
     "lib": [
       "dom",
-      "es2017"
+      "dom.iterable",
+      "esnext"
     ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
     "module": "esnext",
     "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
     "noEmit": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "preserveConstEnums": true,
-    "removeComments": false,
-    "skipLibCheck": true,
-    "sourceMap": true,
-    "strict": true,
-    "target": "esnext",
+    "jsx": "react",
     "plugins": [
       {
         "name": "typescript-styled-plugin",
@@ -28,8 +27,7 @@
     ]
   },
   "include": [
-    "src/**/*.ts",
-    "src/**/*.tsx"
+    "src"
   ],
   "exclude": [
     "node_modules"
